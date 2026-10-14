@@ -135,12 +135,9 @@
 	<!-- common -->
         <project path="system/qcom" name="android_system_qcom" remote="los" />
         <project path="external/bson" name="android_external_bson" remote="los" />
-        <project path="hardware/sony/SonyOpenTelephony" name="android_hardware_sony_SonyOpenTelephony" remote="los" />
         <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="los" />
 
         <!-- oneplus - common -->
-	<project path="hardware/oneplus" name="android_hardware_oneplus" remote="los" />
-	<project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
 
 	<!-- oneplus msm8998 - common -->
         <!--
@@ -162,9 +159,6 @@
 	-->
 	
     <!-- oneplus sm8150 - common -->
-	<project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="axp.os" />
-	<project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="axp.os" />
-	<project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
 
 	<!-- oneplus sm8250 - common -->
 	<!--
@@ -181,12 +175,9 @@
 	-->
 
 	<!-- google - common -->
-	<project path="device/google/gs-common" name="android_device_google_gs-common" remote="los" />
 	<!-- project path="device/google/gs101" name="android_device_google_gs101" remote="axp.os" /> -->
 	<!--project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="los" />-->
-	<project path="device/google/gs201" name="android_device_google_gs201" remote="axp.os" />
 	<!--project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_common" remote="axp.os" revision="axp-a15_pantah" />-->
-	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os" />
 	
 	<!-- samsung - common -->
 	<!--
@@ -200,9 +191,6 @@
 	<project path="device/sony/tama-common" name="android_device_sony_tama-common" remote="axp.os" />
         <project path="vendor/sony/tama-common" name="proprietary_vendor_sony_tama-common" remote="muppets" />
 	-->
-	<project path="device/sony/nile-common" name="android_device_sony_nile-common" remote="axp.os" />
-	<project path="vendor/sony/nile-common" name="proprietary_vendor_sony_nile-common" remote="muppets" />
-	<project path="kernel/sony/sdm660" name="android_kernel_sony_sdm660" remote="los" />
 
 	<!--
 	###############################################################
@@ -234,8 +222,6 @@
 	
 	<!-- Google Pixel 4a (sunfish) -->
 	<!-- uses device_google_sunfish / kernel_google_msm-4.14 -->
-	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
-	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="axp.os-private" />
 	<!-- uses google - common msm-4.14 kernel (see above) -->
 
 	<!-- Google Pixel 6 (oriole/raven) -->
@@ -262,9 +248,6 @@
 	<!-- uses google gs201 commons + gs201 common kernel (see above) -->
 	
 	<!-- Google Pixel 7 Pro (cheetah) -->
-	<project path="device/google/cheetah" name="android_device_google_cheetah" remote="axp.os" />
-	<project path="device/google/pantah" name="android_device_google_pantah" remote="axp.os" />
-	<project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="axp.os-private" />
 	<!-- uses device_google_gs201 / kernel_google_gs201_private_gs-google -->
 
 	<!-- OnePlus 5 (cheeseburger) -->
@@ -310,8 +293,6 @@
 	
 	<!-- OnePlus 7T Pro (hotdog) -->
 	<!-- uses device_oneplus_sm8150-common / kernel_oneplus_sm8150 -->
-	<project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="axp.os" />
-	<project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" />
 
 	<!-- OnePlus 7T (hotdogb) -->
 	<!--
@@ -347,8 +328,6 @@
 	<!-- uses samsung - common kernel and sm7125 (see above) --> 
 
 	<!-- Sony Xperia 10 (kirin) -->
-	<project path="device/sony/kirin" name="android_device_sony_kirin" remote="los" />
-	<project path="vendor/sony/kirin" name="proprietary_vendor_sony_kirin" remote="muppets" />
 	<!-- uses sony common kernel sdm660 and nile-common (see above) -->
 
 	<!-- Sony Xperia 10 Plus (mermaid) -->
