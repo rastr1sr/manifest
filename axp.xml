@@ -92,6 +92,7 @@
         <project path="external/hardened_malloc" name="hardened_malloc" remote="axp.os" revision="upstream_a15" /><!-- gos dropped 15-qpr2 -->
 	<project path="packages/apps/CarrierConfig2" name="platform_packages_apps_CarrierConfig2" remote="gos" revision="refs/tags/2025060200" /><!-- last GOS A15 release -->
 	<project path="packages/apps/AppCompatConfig" name="platform_packages_apps_AppCompatConfig" remote="gos" revision="refs/tags/2025060200" clone-depth="1" /><!-- defines app_compat_config_proto-src used by fw/b patch 0047 -->
+	<project path="external/AppCompatConfig" name="platform_external_AppCompatConfig" remote="gos" revision="refs/tags/2025060200" clone-depth="1" /><!-- prebuilt config APK, required by services (fw/b 0047) -->
 
 <!-- END OF ADDITIONAL REPOS -->
 
