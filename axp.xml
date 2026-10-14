@@ -49,6 +49,9 @@
         <!-- from DOS -->  
         <remote name="gitlab" fetch="https://gitlab.com/" />
         <remote name="angry" fetch="https://gitea.angry.im/" sync-s="true" />
+	<remote name="rhodep-fork"
+	      fetch="https://github.com/rastr1sr"
+	      revision="axp-a15" />
 <!-- END OF REMOTE DEFINITIONS -->
 
 <!-- START OF UNNECESSARY REPO REMOVAL -->
@@ -362,6 +365,15 @@
 	-->
 	<!-- uses sony sdm845 - common kernel and tama-common (see above) -->
 	
+	<!-- Motorola moto g82 5G (rhodep) -->
+	<!-- uses android_device_motorola_sm6375-common / kernel_motorola_sm6375 -->
+	<project path="device/motorola/rhodep" name="android_device_motorola_rhodep" remote="los" />
+	<project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="rhodep-fork" />
+	<project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="los" />
+	<project path="hardware/motorola" name="android_hardware_motorola" remote="los" />
+	<project path="vendor/motorola/rhodep" name="proprietary_vendor_motorola_rhodep" remote="muppets" />
+	<project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="muppets" />
+
 <!-- END OF DEVICE REPOS -->
       
 </manifest>
