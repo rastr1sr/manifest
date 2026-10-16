@@ -353,7 +353,7 @@
 	<project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="los" revision="lineage-24.0" />
 	<project path="hardware/motorola" name="android_hardware_motorola" remote="los" />
 	<project path="vendor/motorola/rhodep" name="proprietary_vendor_motorola_rhodep" remote="muppets" />
-	<project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="muppets" />
+	<project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="rhodep-fork" revision="axp-a15-tier2" />
 
 <!-- END OF DEVICE REPOS -->
       
